@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      table {
+        width: 100%;
+      }
+      thead {
+        color: white;
+        background-color: black;
+      }
+      th,
+      td {
+        border: 2px solid black;
+        padding: 2px;
+        margin: 2px;
+      }
+    </style>
   </head>
   <body>
     <h1>This is from Demo BRanch</h1>
+    <table>
+      <caption>
+        My Table
+      </caption>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Salary</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">1: Usman</td>
+
+          <td>100</td>
+          <td>Good Guy</td>
+        </tr>
+        <tr>
+          <td rowspan="2">2 , 3</td>
+          <td>Usman</td>
+          <td>100</td>
+          <td>Good Guy</td>
+        </tr>
+        <tr>
+          <td>Usman</td>
+          <td>100</td>
+          <td>Good Guy</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Usman</td>
+          <td>100</td>
+          <td>Good Guy</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Usman</td>
+          <td>100</td>
+          <td>Good Guy</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
